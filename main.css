@@ -1,0 +1,17 @@
+.block{
+    border-left: double aqua 4px;
+    border-top: double aquamarine 4px;
+    border-right: double aquamarine 4px;
+    border-bottom: double aqua 4px;
+}
+
+.block--font-fancy{
+    font-family: fantasy;
+    border:double blueviolet;
+    text-align: center;
+    margin: auto;
+}
+
+.p{
+    position: absolute;
+}
