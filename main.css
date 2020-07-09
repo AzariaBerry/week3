@@ -1,9 +1,39 @@
-.block{
-    border-left: double aqua 4px;
-    border-top: double aquamarine 4px;
-    border-right: double aquamarine 4px;
-    border-bottom: double aqua 4px;
+@media only screen and (max-width: 600px){
+    .bears{height: 20px;
+    width: auto;}
+    }
+
+    .block{
+        border-left: double aqua 4px;
+        border-top: double aquamarine 4px;
+        border-right: double aquamarine 4px;
+        border-bottom: double aqua 4px;
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+    
+    }
+
+
+.bear{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+
+    
+
 }
+
+.bear :hover{
+    border: double blue;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+
+
 
 .block--font-fancy{
     font-family: fantasy;
@@ -12,6 +42,15 @@
     margin: auto;
 }
 
-.p{
-    position: absolute;
+.text{
+    font-family: fantasy;
+    text-align: center;
+    margin: auto;
+}
+
+.pictures{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
